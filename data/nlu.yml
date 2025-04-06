@@ -32,7 +32,7 @@ nlu:
     - ¿Qué [significa](atribute) la [Orquídea](flower)?
     - Quiero saber sobre la [Margarita](flower)
     - ¿Es [tóxica](atribute) la [Hortensia](flower)?
-    - ¿Cómo se [cuida](atribute) una [Lavanda](flower)?
+    - ¿Cuales son los [cuidados](atribute) una [Lavanda](flower)?
     - ¿Cómo se [cuida](atribute) la [Rosa](flower)?
     - ¿Qué [simboliza](atribute) la [Lavanda](flower)?
     - ¿Cuál es el [simbolismo](atribute) de la [Margarita](flower)?
