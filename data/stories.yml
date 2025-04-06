@@ -2,29 +2,11 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: greet
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+      - intent: welcome_greet  # Usuario saluda o muestra una bienvenida
+      - action: utter_greet  # Respuesta de saludo del bot
+      - intent: give_name  # Usuario da su nombre
+        entities:
+          - name: "nombre"  # Entidad "name" se extrae como "nombre"
+      - action: action_store_name  # Acción personalizada para almacenar el nombre
