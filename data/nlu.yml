@@ -52,7 +52,7 @@ nlu:
 - intent: give_name
   examples: |
     - Me llamo [Rosa](name)
-    - Llamame [Sara](name)
+    - Llamame [Sofía](name)
     - Es [Miguel](name)
     - Soy [Ana](name)
     - Puedes llamarme [Pedro](name)
