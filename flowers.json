@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Rosa",
+    "season": "Primavera-Verano",
+    "care": "Luz solar directa / Riego moderado",
+    "symbolism": "Amor, pasión",
+    "toxicity": "No tóxica",
+    "description": "Clásica flor de jardín disponible en rojo, blanco, rosa y amarillo. Nivel de cuidado: Intermedio."
+  },
+  {
+    "name": "Suculenta",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego escaso",
+    "symbolism": "Resistencia",
+    "toxicity": "No tóxica",
+    "description": "Planta resistente con tonalidades verdes, azuladas y moradas. Ideal para principiantes."
+  },
+  {
+    "name": "Orquídea",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego semanal",
+    "symbolism": "Elegancia, lujo",
+    "toxicity": "No tóxica",
+    "description": "Flor exótica en blanco, morado, rosa y amarillo. Requiere experiencia en cuidado."
+  },
+  {
+    "name": "Lirio",
+    "season": "Primavera",
+    "care": "Luz indirecta / Riego frecuente",
+    "symbolism": "Pureza, renovación",
+    "toxicity": "Tóxica para gatos",
+    "description": "Flor elegante en blanco, rosa y amarillo. Nivel de cuidado: Intermedio."
+  },
+  {
+    "name": "Tulipán",
+    "season": "Primavera",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Amor perfecto",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Bulbo colorido en rojo, amarillo, rosa y morado. Ideal para principiantes."
+  },
+  {
+    "name": "Girasol",
+    "season": "Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Alegría, vitalidad",
+    "toxicity": "No tóxica",
+    "description": "Icono estival en amarillo y naranja. Fácil mantenimiento."
+  },
+  {
+    "name": "Hortensia",
+    "season": "Verano",
+    "care": "Sombra parcial / Riego abundante",
+    "symbolism": "Gratitud, abundancia",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Arbusto con flores azules, rosas, blancas o moradas. Cuidado intermedio."
+  },
+  {
+    "name": "Aloe Vera",
+    "season": "Todo el año",
+    "care": "Sol indirecto / Riego escaso",
+    "symbolism": "Sanación, protección",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta medicinal de color verde. Ideal para principiantes."
+  },
+  {
+    "name": "Bambú de la Suerte",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Agua cada 7 días",
+    "symbolism": "Fortuna, prosperidad",
+    "toxicity": "No tóxica",
+    "description": "Planta ornamental verde. Fácil cuidado."
+  },
+  {
+    "name": "Cactus",
+    "season": "Todo el año",
+    "care": "Sol pleno / Riego escaso",
+    "symbolism": "Adaptación, fuerza",
+    "toxicity": "No tóxica",
+    "description": "Planta desértica en tonalidades verdes. Bajo mantenimiento."
+  },
+  {
+    "name": "Azalea",
+    "season": "Invierno-Primavera",
+    "care": "Luz filtrada / Riego diario",
+    "symbolism": "Pasión, feminidad",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Arbusto floreciente en rosa, rojo y blanco. Requiere experiencia."
+  },
+  {
+    "name": "Anturio",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Hospitalidad",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Flor tropical en rojo, rosa y blanco. Cuidado experto."
+  },
+  {
+    "name": "Dracena",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Buena suerte",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta ornamental verde y amarilla. Ideal para principiantes."
+  },
+  {
+    "name": "Menta",
+    "season": "Primavera-Verano",
+    "care": "Sol parcial / Riego abundante",
+    "symbolism": "Vitalidad",
+    "toxicity": "No tóxica",
+    "description": "Hierba aromática verde. Fácil cultivo."
+  },
+  {
+    "name": "Lavanda",
+    "season": "Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Calma, serenidad",
+    "toxicity": "No tóxica",
+    "description": "Planta aromática en tonos morados. Ideal para jardines."
+  },
+  {
+    "name": "Geranio",
+    "season": "Primavera-Verano",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Amistad, alegría",
+    "toxicity": "No tóxica",
+    "description": "Planta de flores vibrantes en rojo, rosa y blanco. Fácil de cuidar."
+  },
+  {
+    "name": "Begonia",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Gratitud, cariño",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Flor colorida y ornamental. Requiere atención regular."
+  },
+  {
+    "name": "Petunia",
+    "season": "Primavera-Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Amistad, amor duradero",
+    "toxicity": "No tóxica",
+    "description": "Planta con flores en diversos colores. Fácil mantenimiento."
+  },
+  {
+    "name": "Buganvilla",
+    "season": "Primavera-Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Armonía, pasión",
+    "toxicity": "No tóxica",
+    "description": "Planta trepadora con flores vibrantes. Requiere poda regular."
+  },
+  {
+    "name": "Ciclamen",
+    "season": "Invierno",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Cuidado, amor",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta de invierno con flores coloridas. Necesita un cuidado especial."
+  },
+  {
+    "name": "Crisantemo",
+    "season": "Otoño",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Felicidad, longevidad",
+    "toxicity": "No tóxica",
+    "description": "Flor de otoño con colores brillantes. Fácil de cuidar."
+  },
+  {
+    "name": "Jazmín",
+    "season": "Primavera-Verano",
+    "care": "Luz solar directa / Riego moderado",
+    "symbolism": "Amor, sensualidad",
+    "toxicity": "No tóxica",
+    "description": "Planta trepadora con flores blancas y fragantes."
+  },
+  {
+    "name": "Alstroemeria",
+    "season": "Primavera-Verano",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Amistad, devoción",
+    "toxicity": "No tóxica",
+    "description": "Planta con flores coloridas en tonos naranjas, rojos y morados."
+  },
+  {
+    "name": "Freesia",
+    "season": "Primavera",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Amistad, confianza",
+    "toxicity": "No tóxica",
+    "description": "Planta bulbosa con flores en tonos vibrantes."
+  },
+  {
+    "name": "Calla",
+    "season": "Primavera-Verano",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Elegancia, belleza",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Flor elegante de tallo largo y flores en tonos blancos."
+  },
+  {
+    "name": "Dahlia",
+    "season": "Verano-Otoño",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Gratitud, dignidad",
+    "toxicity": "No tóxica",
+    "description": "Planta ornamental con flores grandes y coloridas."
+  },
+  {
+    "name": "Ficus",
+    "season": "Todo el año",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Protección, crecimiento",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta de hojas grandes y brillantes."
+  },
+  {
+    "name": "Clemátide",
+    "season": "Primavera-Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Belleza, alegría",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta trepadora con flores grandes en diversos colores."
+  },
+  {
+    "name": "Sainfoin",
+    "season": "Verano",
+    "care": "Sol pleno / Riego escaso",
+    "symbolism": "Energía, amistad",
+    "toxicity": "No tóxica",
+    "description": "Planta perenne con flores rosadas."
+  },
+  {
+    "name": "Hibisco",
+    "season": "Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Belleza, pasión",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Planta de flores grandes en tonos vibrantes."
+  },
+  {
+    "name": "Narciso",
+    "season": "Primavera",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Renacimiento, nuevos comienzos",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Flor bulbosa de tonos amarillos y blancos."
+  },
+  {
+    "name": "Basilisco",
+    "season": "Todo el año",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Energía, limpieza",
+    "toxicity": "No tóxica",
+    "description": "Planta herbácea con hojas verdes y aromáticas."
+  },
+  {
+    "name": "Camellia",
+    "season": "Invierno-Primavera",
+    "care": "Luz filtrada / Riego moderado",
+    "symbolism": "Admiración, devoción",
+    "toxicity": "Tóxica para mascotas",
+    "description": "Flor en tonos rosados, blancos y rojos."
+  },
+  {
+    "name": "Verbena",
+    "season": "Primavera-Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Amistad, protección",
+    "toxicity": "No tóxica",
+    "description": "Planta con flores en colores brillantes."
+  },
+  {
+    "name": "Margarita",
+    "season": "Primavera-Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Inocencia, pureza",
+    "toxicity": "No tóxica",
+    "description": "Flor simple en blanco con centro amarillo."
+  },
+  {
+    "name": "Gerbera",
+    "season": "Primavera-Verano",
+    "care": "Sol parcial / Riego moderado",
+    "symbolism": "Felicidad, alegría",
+    "toxicity": "No tóxica",
+    "description": "Flor vibrante en colores como rojo, naranja, rosa y blanco."
+  },
+  {
+    "name": "Arroz",
+    "season": "Verano",
+    "care": "Sol pleno / Riego moderado",
+    "symbolism": "Abundancia, prosperidad",
+    "toxicity": "No tóxica",
+    "description": "Planta cultivable en zonas calurosas."
+  },
+  {
+    "name": "Gloxinia",
+    "season": "Primavera",
+    "care": "Luz indirecta / Riego moderado",
+    "symbolism": "Amor eterno",
+    "toxicity": "No tóxica",
+    "description": "Planta ornamental con flores de colores intensos."
+  }
+]

@@ -6,7 +6,7 @@ intents:
   - goodbye
   - confirm
   - deny
-  - ask_flower
+  - ask_for_help
   - bot_challenge
   - fallback
 
@@ -17,15 +17,32 @@ slots:
       - type: from_entity
         entity: name
     influence_conversation: false
+  flower:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: flower
+    influence_conversation: true
+  atribute:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: atribute
+    influence_conversation: true
 
 entities:
   - name
+  - flower
+  - atribute
 
 responses:
   utter_greet:
     - text: "Hola, soy BOTanica, tu asistente virtual. ¿Cómo te llamas?"
   utter_help:
     - text: "Me alegra conocerte, {name}. ¿En qué puedo ayudarte hoy?"
+
+actions:
+  - action_request_info_flower
 
 session_config:
   session_expiration_time: 60

@@ -25,3 +25,74 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+import json
+from rasa_sdk import Action
+
+class ActionRequestInfoFlower(Action):
+    def name(self):
+        return "action_request_info_flower"
+
+    def run(self, dispatcher, tracker, domain):
+        user_flower = tracker.get_slot("flower")
+        attribute = tracker.get_slot("atribute")
+
+        if not user_flower:
+            dispatcher.utter_message(text="¿Qué flor te interesa?")
+            return []
+
+        # Manejo de posibles errores al abrir el archivo
+        try:
+            with open("flowers.json", "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            dispatcher.utter_message(text="Hubo un problema al leer la información de las flores.")
+            return []
+
+        # Crear un diccionario para acceder fácilmente a cada flor
+        flowers = {item["name"].lower(): item for item in data}
+        flower_info = flowers.get(user_flower.lower())
+
+        if not flower_info:
+            dispatcher.utter_message(text="No encontré información sobre esa flor.")
+            return []
+
+        if not attribute:
+            # Si no se especifica un atributo, devolvemos toda la información
+            respuesta = (
+                f"🌸 {flower_info['name']}:\n"
+                f"Temporada: {flower_info['season']}\n"
+                f"Cuidado: {flower_info['care']}\n"
+                f"Simbolismo: {flower_info['symbolism']}\n"
+                f"Toxicidad: {flower_info['toxicity']}\n"
+                f"Descripción: {flower_info['description']}"
+            )
+        else:
+            attribute = attribute.lower()
+            # Mapeo de posibles palabras clave a los atributos del JSON
+            mapping = {
+                "cuidado": "care",
+                "cuida": "care",
+                "simbolismo": "symbolism",
+                "simbolice": "symbolism",
+                "simboliza": "symbolism",
+                "significado": "symbolism",
+                "significa": "symbolism",
+                "temporada": "season",
+                "descripción": "description",
+                "descripcion": "description",
+                "toxico": "toxicity",
+                "tóxico": "toxicity",
+                "toxicidad": "toxicity",
+                "tóxica": "toxicity",
+                "toxica": "toxicity"
+            }
+            clave = mapping.get(attribute)
+            if clave and clave in flower_info:
+                respuesta = f"{clave.capitalize()}: {flower_info[clave]}"
+            else:
+                respuesta = "No entiendo qué aspecto quieres saber de esa flor."
+
+        dispatcher.utter_message(text=respuesta)
+        return []
+

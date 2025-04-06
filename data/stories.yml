@@ -8,5 +8,16 @@ stories:
       - action: utter_greet  # Respuesta de saludo del bot
       - intent: give_name  # Usuario da su nombre
         entities:
-          - name: "name"  # Entidad "name" se extrae como "nombre"
+          - name: "name"
       - action: utter_help  # Bot responde con ayuda
+
+- story: help
+  steps:
+      - intent: ask_for_help  # Usuario pide ayuda
+        entities:
+        - flower: "flower"
+        - atribute: "atribute"
+      - action: action_request_info_flower  # El bot pregunta por informacion de la flor
+      - slot_was_set:
+        - flower: "flower"
+        - atribute: "atribute"

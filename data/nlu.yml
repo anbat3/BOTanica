@@ -51,24 +51,21 @@ nlu:
     - no quiero
     - no puedo
 
-- intent: ask_flower
+- intent: ask_for_help
   examples: |
-    - ¿me puedes [recomendar](atributo) una flor?
-    - ¿qué flor me [recomiendas](atributo)?
-    - ¿cuál es [la mejor](atributo) flor?
-    - ¿cuál es la flor [más común](atributo)?
-    - Háblame de la [Rosa](flor)
-    - ¿[Qué significa](atributo) la [Orquídea](flor)?
-    - Quiero saber sobre la [Margarita](flor)
-    - ¿Es [tóxica](atributo) la [Hortensia](flor)?
-    - ¿Cómo se [cuida](atributo) una [Lavanda](flor)?
-    - ¿Cómo se [cuida](atributo) la [Rosa](flor)?
-    - ¿Qué [simboliza](atributo) la [Lavanda](flor)?
-    - ¿Es [tóxica](atributo) la [Hortensia](flor)?
-    - ¿Cuál es la [temporada](atributo) de la [Margarita](flor)?
-    - Dame la [descripción](atributo) de la [Rosa](flor)
-    - Quiero una flor que [simbolice](atributo) amor
-    - Quiero una flor que no sea [tóxica](atributo)
+    - Háblame de la [Rosa](flower)
+    - ¿Qué [significa](atribute) la [Orquídea](flower)?
+    - Quiero saber sobre la [Margarita](flower)
+    - ¿Es [tóxica](atribute) la [Hortensia](flower)?
+    - ¿Cómo se [cuida](atribute) una [Lavanda](flower)?
+    - ¿Cómo se [cuida](atribute) la [Rosa](flower)?
+    - ¿Qué [simboliza](atribute) la [Lavanda](flower)?
+    - ¿Cuál es el [simbolismo](atribute) de la [Margarita](flower)?
+    - ¿Es [tóxica](atribute) la [Hortensia](flower)?
+    - ¿Cuál es la [temporada](atribute) de la [Margarita](flower)?
+    - Dame la [descripción](atribute) de la [Rosa](flower)
+    - Quiero una flor que [simbolice](atribute) amor
+    - Quiero una flor que no sea [tóxica](atribute)
     
 - intent: bot_challenge
   examples: |
@@ -80,15 +77,10 @@ nlu:
 - intent: give_name
   examples: |
     - Me llamo [Rosa](name)
-    - [Juan](name)
     - Llamame [Sara](name)
     - Es [Miguel](name)
     - Soy [Ana](name)
-    - Puedes llamarme [PEdro](name)
-    - [Denise](name)
-    - [John](name)
-    - [Sarah](name)
-    - [Michael](name)
+    - Puedes llamarme [Pedro](name)
     - [Sofia](name)
 
 - intent: fallback
