@@ -8,5 +8,5 @@ stories:
       - action: utter_greet  # Respuesta de saludo del bot
       - intent: give_name  # Usuario da su nombre
         entities:
-          - name: "nombre"  # Entidad "name" se extrae como "nombre"
-      - action: action_store_name  # Acción personalizada para almacenar el nombre
+          - name: "name"  # Entidad "name" se extrae como "nombre"
+      - action: utter_help  # Bot responde con ayuda
