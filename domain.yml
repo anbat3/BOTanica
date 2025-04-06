@@ -40,7 +40,9 @@ responses:
     - text: "Hola, soy BOTanica, tu asistente virtual. ¿Cómo te llamas?"
   utter_help:
     - text: "Me alegra conocerte, {name}. ¿En qué puedo ayudarte hoy?"
-
+  utter_goodbye:
+    - text: "¡Hasta luego! Espero haber sido de ayuda. ¡Vuelve pronto!."
+    
 actions:
   - action_request_info_flower
 

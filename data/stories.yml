@@ -21,3 +21,8 @@ stories:
       - slot_was_set:
         - flower: "flower"
         - atribute: "atribute"
+
+- story: goodbye
+  steps:
+      - intent: goodbye  # Usuario se despide
+      - action: utter_goodbye  # Respuesta de despedida del bot
