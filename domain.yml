@@ -4,8 +4,6 @@ intents:
   - welcome_greet
   - give_name
   - goodbye
-  - confirm
-  - deny
   - ask_for_help
   - bot_challenge
   - fallback
@@ -42,6 +40,10 @@ responses:
     - text: "Me alegra conocerte, {name}. ¿En qué puedo ayudarte hoy?"
   utter_goodbye:
     - text: "¡Hasta luego! Espero haber sido de ayuda. ¡Vuelve pronto!."
+  utter_iamabot:
+    - text: "Soy un bot, powered by Rasa."
+  utter_fallback:
+    - text: "Si quieres podemos empezar de nuevo. ¿Con qué puedo ayudarte?"
     
 actions:
   - action_request_info_flower

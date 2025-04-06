@@ -72,6 +72,7 @@ class ActionRequestInfoFlower(Action):
             # Mapeo de posibles palabras clave a los atributos del JSON
             mapping = {
                 "cuidado": "care",
+                "cuidados": "care",                
                 "cuida": "care",
                 "simbolismo": "symbolism",
                 "simbolice": "symbolism",

@@ -26,3 +26,13 @@ stories:
   steps:
       - intent: goodbye  # Usuario se despide
       - action: utter_goodbye  # Respuesta de despedida del bot
+
+- story: bot_challenge
+  steps:
+      - intent: bot_challenge  # Usuario pregunta si el bot es un robot
+      - action: utter_iamabot  # Respuesta del bot confirmando que es un bot
+
+- story: fallback
+  steps:
+      - intent: fallback  # Usuario hace una pregunta no entendida
+      - action: utter_fallback  # Respuesta del bot
