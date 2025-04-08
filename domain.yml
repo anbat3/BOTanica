@@ -39,7 +39,7 @@ responses:
   utter_help:
     - text: "Me alegra conocerte, {name}. ¿En qué puedo ayudarte hoy?"
   utter_goodbye:
-    - text: "¡Hasta luego! Espero haber sido de ayuda. ¡Vuelve pronto!."
+    - text: "¡Hasta luego! Espero haber sido de ayuda. ¡Vuelve pronto!"
   utter_iamabot:
     - text: "Soy un bot, powered by Rasa."
   utter_fallback:
