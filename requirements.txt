@@ -50,7 +50,7 @@ google-auth==2.38.0
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 grpcio==1.71.0
-h11==0.14.0
+h11==0.16.0
 h5py==3.13.0
 httptools==0.6.4
 huggingface-hub==0.30.1
